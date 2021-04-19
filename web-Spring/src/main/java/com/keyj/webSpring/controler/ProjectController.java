@@ -10,6 +10,6 @@ public class ProjectController {
     @GetMapping("/projects")
     public String projects(Model model) {
         model.addAttribute("title", "keyj web");
-        return "projects";
+        return "projects/projects";
     }
 }

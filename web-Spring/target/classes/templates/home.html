@@ -7,13 +7,23 @@
   </head>
 
   <body>
+  <style>
+      .Spr{
+         color : orange;
+         padding-top: 20px
+      }
+  </style>
   <header th:insert="blocks/header :: header"></header>
   <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
       <div class="my-3 py-3">
           <h2 class="display-5">тут есть все мои приложения </h2>
           <p class="lead">просто перейдите в раздел projects.</p>
       </div>
-      <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+          <div class="Spr">это мой первый сайт с использованием java Spring boot</div>
+          <div class="Spr">хотя это ничегоо не меняет тут просто куча моих приложений</div>
+          <div class="Spr">должно было быть но их всего 2...</div>
+      </div>
   </div>
   <footer th:insert="blocks/footer :: header"></footer>
   </body>

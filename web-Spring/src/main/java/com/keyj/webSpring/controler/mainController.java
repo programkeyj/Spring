@@ -12,10 +12,10 @@ public class mainController {
         model.addAttribute("title", "keyj web");
         return "home";
     }
-    @GetMapping("/icon")
+    @GetMapping("/faq")
     public String icon(Model model) {
         model.addAttribute("title", "keyj web");
-        return "images";
+        return "faq/faq";
     }
 
 
